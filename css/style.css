@@ -9,6 +9,7 @@ header {
 }
 
 .first-section {
+  padding-top: 20px;
   min-height: 400px;
   background-color: #1abc9c;
   color: white;
@@ -24,4 +25,15 @@ img {
   min-width: 100px;
   margin: 20px;
   border: 3px solid white;
+}
+
+.second-section {
+  padding-top: 20px;
+  min-height: 1000px;
+  background-color: white;
+  color: #6395ad;
+}
+
+.second-section .line {
+  border: 3px solid #6395ad;
 }
