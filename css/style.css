@@ -34,7 +34,8 @@ img {
   color: #6395ad;
 }
 
-.second-section .line {
+.second-section .line,
+.fourth-section .line {
   border: 3px solid #6395ad;
 }
 
@@ -43,4 +44,15 @@ img {
   min-height: 400px;
   background-color: #1abc9c;
   color: white;
+}
+
+.fourth-section {
+  padding-top: 20px;
+  min-height: 400px;
+  background-color: white;
+  color: #6395ad;
+}
+
+.fourth-section button {
+  background-color: #1abc9c;
 }
