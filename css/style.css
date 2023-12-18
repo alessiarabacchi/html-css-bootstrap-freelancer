@@ -65,6 +65,11 @@ img {
   color: white;
 }
 
+.icon {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
 footer {
   padding-top: 20px;
   min-height: 100px;
