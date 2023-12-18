@@ -7,3 +7,21 @@ header {
 .container {
   width: 70%;
 }
+
+.first-section {
+  min-height: 400px;
+  background-color: #1abc9c;
+  color: white;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.line {
+  min-width: 100px;
+  margin: 20px;
+  border: 3px solid white;
+}
