@@ -42,12 +42,14 @@
         class="container-md d-flex justify-content-between align-items-center p-3"
       >
         <div>START BOOTSTRAP</div>
-        <div class="d-flex justify-content-between align-items-center">
-          <p class="p-2">PORTFOGLIO</p>
-          <p class="p-2">ABOUT</p>
-          <p class="p-2">CONTACT</p>
+        <div class=" d-none d-md-flex  ">
+          <div class="p-2 d-flex">PORTFOGLIO</div>
+          <div class="p-2 d-flex">ABOUT</div>
+          <div class="p-2 d-flex">CONTACT</div>  
         </div>
+        <div><i class="fa-solid fa-bars  d-md-none"></i></div>
       </div>
+      
     </header>
     <!-- Section 1  -->
     <section class="first-section">
@@ -69,7 +71,7 @@
     </section>
 
     <!-- Section 2  -->
-    <section class="second-section">
+    <section class="second-section ">
       <div class="container">
         <h2 class="text-center">PORTFOGLIO</h2>
         <div
@@ -80,42 +82,42 @@
           <div class="line"></div>
         </div>
         <div class="row">
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/cabin.png"
               alt="Cabin"
             />
           </div>
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/cake.png"
               alt="Cake"
             />
           </div>
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/circus.png"
               alt="Circus"
             />
           </div>
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/game.png"
               alt="Game"
             />
           </div>
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/safe.png"
               alt="Safe"
             />
           </div>
-          <div class="col-sm-12 .col-md-6 .col-lg-4">
+          <div class="col-md-6 col-lg-4">
             <img
               class="rounded mx-auto d-block m-2"
               src="./img/submarine.png"
@@ -137,18 +139,21 @@
           <span> <i class="fa-solid fa-star"></i> </span>
           <div class="line"></div>
         </div>
-        <div  >
-        <p class=".d-md-flex">
-          Freelancer is a free bootstrap theme created by Start Bootstrap. The
-          downloads includes the complete source files inclouding HTML, CSS, and
-          JavaScript as well as optional LESS stylesheets for easy
-          customisation.
-        </p>
-        <p class=".d-md-flex">
-          Whether you're a student looking to showcase your work, a professinal
-          looking to attract clients, or a graphic artist looking to share your
-          projects, this templateis the perfect starting poin!
-        </p>
+        
+        <div class="row">
+          <div class="p-2 col-md-6 d-md-flex text-left">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            downloads includes the complete source files inclouding HTML, CSS, and
+            JavaScript as well as optional LESS stylesheets for easy
+            customisation.
+          </div>
+          <div class="p-2 col-md-6 d-md-flex text-left">
+            Whether you're a student looking to showcase your work, a professinal
+            looking to attract clients, or a graphic artist looking to share your
+            projects, this templateis the perfect starting poin!
+          </div>
+          
+        </div>
         <button class="btn btn-outline-light">
           <i class="fa-solid fa-download"></i>
           Download
@@ -169,22 +174,22 @@
         </div>
         <form>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Name</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputName1" class="form-label">Name</label>
+            <input type="name" class="form-control" id="exampleInputName1" aria-describedby="name">
             
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">Email Address</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
+            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="email">
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputPhone1" class="form-label">Phone Number</label>
+            <input type="phone" class="form-control" id="exampleInputPhone1" aria-describedby="phone-number">
             
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Message</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <label for="exampleInputMessage1" class="form-label">Message</label>
+            <input type="message" class="form-control" id="exampleInputMessage1" aria-describedby="message">
             
           </div>
           <button type="submit" class="btn btn-primary">Send</button>
@@ -194,24 +199,26 @@
     <!-- Section 5  -->
     <section class="fifth-section p-4">
       <div class="container text-center">
-        <div>
-          <h4>LOCATION</h4>
-          <p>2215 John Daniel Drive Clark, MO 54243</p>
+        <div class="row">
+          <div class="col-md-4">
+            <h4>LOCATION</h4>
+            <p>2215 John Daniel Drive Clark, MO 54243</p>
+          </div>
+          <div class="col-md-4">
+            <h4>AROUND THE WEB</h4>
+            <div >
+              <i  class="fa-brands fa-facebook-f icon p-2"></i>
+              <i  class="fa-brands fa-google-plus-g icon p-2"></i>
+              <i  class="fa-brands fa-twitter icon p-2"></i>
+              <i  class="fa-brands fa-linkedin-in icon p-2"></i>
+            </div> 
+          </div>
+          <div class="col-md-4">
+            <h4>ABOUT FREELANCER</h4>
+            <p>Freelence is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+          </div>
         </div>
-        <div>
-          <h4>AROUND THE WEB</h4>
-          <div >
-            <i  class="fa-brands fa-facebook-f icon p-2"></i>
-            <i  class="fa-brands fa-google-plus-g icon p-2"></i>
-            <i  class="fa-brands fa-twitter icon p-2"></i>
-            <i  class="fa-brands fa-linkedin-in icon p-2"></i>
-          </div> 
-        </div>
-        <div>
-          <h4>ABOUT FREELANCER</h4>
-          <p>Freelence is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-        </div>
-      </div>
+      </div> 
     </section>
     <footer class="d-flex justify-content-center align-items-center text-center p-4">
       <p>Copyright @ Your Website 2019</p>

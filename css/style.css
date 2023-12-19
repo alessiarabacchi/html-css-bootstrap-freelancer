@@ -10,14 +10,15 @@ header {
 
 .first-section {
   padding-top: 20px;
-  min-height: 400px;
+  padding-top: 20px;
+
   background-color: #1abc9c;
   color: white;
 }
 
 img {
-  height: 250px;
-  width: 250px;
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
 }
 
@@ -29,7 +30,7 @@ img {
 
 .second-section {
   padding-top: 20px;
-  min-height: 1000px;
+  padding-bottom: 50px;
   background-color: white;
   color: #6395ad;
 }
@@ -41,7 +42,7 @@ img {
 
 .third-section {
   padding-top: 20px;
-  min-height: 400px;
+  padding-bottom: 20px;
   background-color: #1abc9c;
   color: white;
 }
@@ -60,7 +61,8 @@ img {
 .fifth-section {
   margin-top: 20px;
   padding-top: 20px;
-  min-height: 300px;
+  padding-bottom: 20px;
+
   background-color: #3a546d;
   color: white;
 }
